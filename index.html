@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohammad Zeid — Cybersecurity & IT Operations</title>
+  <meta name="description" content="Portfolio of Mohammad Zeid — MSc in Cyber Security & Digital Forensics. IT Manager & Instructor with 10+ years in systems, networks, and cloud security." />
+  <link rel="canonical" href="https://m7md-zeid.com/" />
+  <meta property="og:title" content="Mohammad Zeid — Cybersecurity & IT Operations" />
+  <meta property="og:description" content="MSc Cyber Security & Digital Forensics. 10+ years in IT operations, systems, networks, and security. Teaching & cloud experience." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://m7md-zeid.com/" />
+  <meta name="theme-color" content="#0f172a" />
+  <style>
+    :root {
+      --bg: #0b1220;      /* slategrey/ink */
+      --bg-soft: #0f172a; /* slate-900 */
+      --text: #e5e7eb;    /* gray-200 */
+      --muted: #9ca3af;   /* gray-400 */
+      --accent: #60a5fa;  /* blue-400 */
+      --accent-2: #a78bfa;/* violet-400 */
+      --card: #111827;    /* gray-900 */
+      --border: #1f2937;  /* gray-800 */
+      --ok: #10b981;      /* emerald */
+      --warn: #f59e0b;    /* amber */
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #ffffff;
+        --bg-soft: #f8fafc;
+        --text: #0f172a;
+        --muted: #475569;
+        --accent: #2563eb;
+        --accent-2: #7c3aed;
+        --card: #ffffff;
+        --border: #e5e7eb;
+        --ok: #059669;
+        --warn: #d97706;
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji";color:var(--text);background:linear-gradient(180deg,var(--bg) 0%, var(--bg-soft) 100%);} 
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;backdrop-filter: blur(8px);background:color(from var(--bg-soft) srgb r g b / .6);border-bottom:1px solid var(--border);z-index:50}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:700}
+    .chip{border:1px solid var(--border);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:12px}
+    .nav-links a{margin-left:16px;color:var(--text)}
+    .btn{display:inline-block;padding:12px 18px;border-radius:14px;border:1px solid var(--border);background:var(--card);color:var(--text);text-decoration:none;transition:.2s transform, .2s box-shadow}
+    .btn:hover{transform:translateY(-2px);box-shadow:0 10px 30px color(from var(--accent) srgb r g b / .18)}
+    .btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent-2));border:none;color:white}
+    .btn.ghost{background:transparent;border-color:var(--border)}
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center;padding:64px 0}
+    .hero h1{font-size:clamp(28px, 4vw, 46px);line-height:1.1;margin:0 0 10px}
+    .hero p{color:var(--muted);font-size:clamp(15px,2.2vw,18px)}
+    .kpis{display:flex;gap:18px;flex-wrap:wrap;margin-top:18px}
+    .kpi{background:var(--card);border:1px solid var(--border);padding:14px 16px;border-radius:14px}
+    section{padding:36px 0;border-top:1px solid var(--border)}
+    h2{font-size:24px;margin:0 0 16px}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:18px}
+    .two-col{grid-column:span 12}
+    @media (min-width: 900px){.two-col{grid-column:span 6}}
+    ul{margin:10px 0 0 18px}
+    .pill{display:inline-block;font-size:12px;border:1px solid var(--border);padding:6px 10px;border-radius:999px;margin:4px 6px 0 0;color:var(--muted)}
+    .timeline{display:grid;gap:16px}
+    .job{border-left:3px solid var(--border);padding-left:12px}
+    .job h3{margin:0}
+    .job .meta{color:var(--muted);font-size:14px;margin:6px 0 10px}
+    footer{border-top:1px solid var(--border);padding:28px 0;color:var(--muted);font-size:14px}
+    .badges .pill{border-color:color(from var(--accent) srgb r g b / .3)}
+    .badge-ok{color:var(--ok);border-color:color(from var(--ok) srgb r g b / .4)}
+    .badge-warn{color:var(--warn);border-color:color(from var(--warn) srgb r g b / .4)}
+    .contact{display:flex;gap:12px;flex-wrap:wrap}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Mohammad Zeid",
+    "jobTitle":"IT Manager / Cloud & Security Engineer",
+    "email":"mailto:Mohammad0zeid@gmail.com",
+    "telephone":"+90 501 359 5004",
+    "url":"https://m7md-zeid.com/",
+    "sameAs":["https://github.com/m0zeid"],
+    "address":{
+      "@type":"PostalAddress",
+      "addressLocality":"Istanbul",
+      "addressCountry":"TR"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <span aria-hidden>🛡️</span>
+          <span>Mohammad Zeid</span>
+          <span class="chip">Cyber Security • IT Ops</span>
+        </div>
+        <div class="nav-links" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#certs">Certifications</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container hero">
+      <div>
+        <h1>IT & Cybersecurity Engineer<br/>with 10+ Years in Systems, Networks & Cloud</h1>
+        <p>
+          MSc in Cyber Security & Digital Forensics. I design, secure, and operate hybrid infrastructures (on‑prem & cloud), and teach ICT/programming. I’ve led IT modernisation for schools and businesses across Turkey, Oman, and Lebanon.
+        </p>
+        <div class="kpis">
+          <div class="kpi"><span class="mono">10+ yrs</span><br/>IT Experience</div>
+          <div class="kpi"><span class="mono">500+ users</span><br/>supported environments</div>
+          <div class="kpi"><span class="mono">MSc</span><br/>Cyber Security & DF</div>
+        </div>
+        <div style="margin-top:18px" class="contact">
+          <a class="btn primary" href="#contact">Contact Me</a>
+          <a class="btn" href="https://github.com/m0zeid" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn ghost" href="mailto:Mohammad0zeid@gmail.com">Email</a>
+          <a class="btn ghost" href="tel:+905013595004">Call (TR)</a>
+        </div>
+        <div class="badges" style="margin-top:12px">
+          <span class="pill">AZ‑900 ✓</span>
+          <span class="pill badge-warn">AZ‑800 (31 Aug, scheduled)</span>
+          <span class="pill badge-warn">AZ‑801 (5 Sep, planned)</span>
+          <span class="pill badge-warn">CEH (Oct, planned)</span>
+          <span class="pill">Future: CISSP • CCNP Security • PhD</span>
+        </div>
+      </div>
+      <div class="card">
+        <h2 style="margin-top:0">Highlights</h2>
+        <ul>
+          <li>Hybrid infra: Windows Server, Azure AD, Microsoft 365, Google Workspace</li>
+          <li>Security: audits, hardening, endpoint & network security (Sophos, pfSense)</li>
+          <li>Networking: Cisco/Mikrotik, VLANs, VPNs, Wi‑Fi (UniFi, Fortigate)</li>
+          <li>Virtualisation & DR: Hyper‑V, ESXi, backups, BCP</li>
+          <li>Teaching: ICT, C/C++ fundamentals, labs & workshops</li>
+        </ul>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="container grid">
+        <div class="two-col card">
+          <h2>About</h2>
+          <p>
+            I’m an Istanbul‑based IT professional with hands‑on experience leading IT operations and security for education and enterprise. I enjoy building reliable systems, simplifying complexity, and mentoring teams and students. Previously in Muscat (2017–2021), I combined System/Network Administration with ICT teaching.
+          </p>
+          <p class="muted" style="color:var(--muted)">Open to roles in Turkey and Oman: System Administrator, Cloud/Infrastructure Engineer, IT Manager, Cybersecurity Analyst, or IT Instructor.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container grid">
+        <div class="two-col card">
+          <h2>Skills</h2>
+          <div>
+            <p><strong>Networking & Security:</strong> LAN/WAN, VLANs, VPN, Cisco & Mikrotik, Fortigate, pfSense, Sophos, Wi‑Fi (UniFi), IP PBX (Asterisk), CCTV/NVR, monitoring (Spiceworks, SolarWinds).</p>
+            <p><strong>Servers & Virtualisation:</strong> Windows Server (AD, DHCP, DNS, Hyper‑V, WSUS), Linux (Ubuntu/Debian), ESXi, backup & disaster recovery.</p>
+            <p><strong>Cloud & Collaboration:</strong> Azure AD, Microsoft 365, Google Workspace, hybrid identity, security baselines, cloud backup.</p>
+            <p><strong>Web & Development:</strong> WordPress/Joomla, HTML/CSS/PHP, Python, C/C++.</p>
+            <p><strong>Languages:</strong> English (Aptis C1, IELTS 7.5), Arabic (native).</p>
+            <p><strong>Soft Skills:</strong> Training & mentoring, documentation, vendor management, project leadership.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container grid">
+        <div class="two-col card">
+          <h2>Experience</h2>
+          <div class="timeline">
+            <div class="job">
+              <h3>IT Manager — PARC International School</h3>
+              <div class="meta">Istanbul, Turkey • 08/2022 – Present</div>
+              <ul>
+                <li>Led IT strategy and hybrid on‑prem/cloud modernisation for 500+ users.</li>
+                <li>Managed servers, firewalls, switches, Wi‑Fi, surveillance, and DR.</li>
+                <li>Implemented Azure AD & Microsoft 365; secured identities and access.</li>
+                <li>Performed security audits, vulnerability management, and patching.</li>
+              </ul>
+            </div>
+            <div class="job">
+              <h3>System & Network Administrator • ICT Teacher — Al Huda Private School</h3>
+              <div class="meta">Muscat, Oman • 08/2017 – 08/2021</div>
+              <ul>
+                <li>Taught ICT (Oxford/Cambridge curricula); led tech workshops & clubs.</li>
+                <li>Built and maintained network/VoIP/Wi‑Fi; provided campus‑wide support.</li>
+              </ul>
+            </div>
+            <div class="job">
+              <h3>IT Administrator — Abdul Rahman Hallab & Sons</h3>
+              <div class="meta">Tripoli, Lebanon • 04/2015 – 07/2017</div>
+              <ul>
+                <li>Provided multi‑site support and administered LAN/WAN, VPN, AD/DNS/DHCP, Hyper‑V, WSUS.</li>
+                <li>Upgraded network: VLANs, DHCP, ACLs on Cisco; deployed UniFi Wi‑Fi & PTP links.</li>
+                <li>Managed IP PBX (Asterisk/FreePBX), CCTV, Sophos endpoint, backups (MS DPM).</li>
+              </ul>
+            </div>
+            <div class="job">
+              <h3>Owner / IT Consultant — X‑bits (personal project)</h3>
+              <div class="meta">Tripoli, Lebanon • 05/2014 – 08/2017</div>
+              <ul>
+                <li>IT consultancy for SMEs & NGOs; training for A+/Network+; Linux web/email/FTP hosting.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certs">
+      <div class="container grid">
+        <div class="two-col card">
+          <h2>Certifications</h2>
+          <p><strong>Achieved:</strong> Cisco CyberOps Associate • Cisco CCNA (Routing & Switching, Security) • CompTIA A+ • Microsoft Azure Fundamentals (AZ‑900) • Aptis Advanced C1 • IELTS 7.5</p>
+          <p><strong>Scheduled / In Progress:</strong> Microsoft Windows Server Hybrid Administrator Associate — <em>AZ‑800 (31 Aug)</em>, <em>AZ‑801 (5 Sep)</em> • CEH (Oct)</p>
+          <p><strong>Planned:</strong> CISSP • CCNP Security • PhD in Computer Engineering</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container grid">
+        <div class="two-col card">
+          <h2>Education</h2>
+          <ul>
+            <li><strong>MSc, Cyber Security & Digital Forensics</strong> — Arab Open University, Lebanon (2024) — Graduated with Honors (GPA 3.88)</li>
+            <li><strong>BSc, Telecommunications & Networks</strong> — Lebanese French University (2014)</li>
+            <li><strong>Academic Training:</strong> Cisco Networking Academy (CCNA R&S, CCNA Security); Microsoft IT Academy (MCSA/MCSE coursework)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container grid">
+        <div class="two-col card">
+          <h2>Contact</h2>
+          <p>I’m open to roles in Turkey and Oman. For opportunities or collaborations, reach out:</p>
+          <div class="contact">
+            <a class="btn primary" href="mailto:Mohammad0zeid@gmail.com">📧 Email</a>
+            <a class="btn" href="tel:+905013595004">📞 Call (TR)</a>
+            <a class="btn" href="tel:+96181513345">📞 Call (LB)</a>
+            <a class="btn ghost" href="https://m0zeid.github.io" target="_blank" rel="noopener">GitHub Pages</a>
+            <a class="btn ghost" href="https://m7md-zeid.com" target="_blank" rel="noopener">m7md-zeid.com</a>
+            <!-- Replace the CV link below with your actual PDF path in the repo -->
+            <a class="btn" href="/assets/Mohammad_Zeid_CV.pdf" target="_blank" rel="noopener">⬇️ Download CV (PDF)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© <span id="year"></span> Mohammad Zeid — Built with semantic HTML & vanilla CSS. Hosted on GitHub Pages.</div>
+    </div>
+  </footer>
+
+  <script>
+    // Small progressive enhancement
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
